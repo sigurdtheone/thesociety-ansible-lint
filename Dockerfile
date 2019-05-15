@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk update; apk add bash ansible py-pip gcc; pip2 install ansible-lint
+RUN apk update; apk add bash ansible py-pip gcc python2-dev; pip2 install ansible-lint
 
 WORKDIR /code
 
