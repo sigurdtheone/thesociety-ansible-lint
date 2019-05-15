@@ -1,0 +1,1 @@
+# thesociety-ansible-lint
